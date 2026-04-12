@@ -21,7 +21,7 @@ public class ProductBasket {
             products[productCount] = product;
             productCount++;
         } else {
-            System.out.println("Невозможно добавить продукт");
+            System.out.println("--> Невозможно добавить продукт");
         }
     }
 
@@ -36,7 +36,6 @@ public class ProductBasket {
 
     //содержимое корзины
     public void printBasket() {
-        System.out.println("ProductBasket.printBasket");
         if (productCount == 0) {
             System.out.println("В корзине путо");
             return;
