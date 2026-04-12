@@ -2,19 +2,19 @@ package org.skypro.skyshop.product;
 
  public class Product {
     private final String name;
-    private final int cost;
+    private final int price ;
 
      public String getName() {
          return name;
      }
 
      public int getCost() {
-         return cost;
+         return price ;
      }
 
      public Product(String name, int cost) {
         this.name = name;
-        this.cost = cost;
+        this.price  = cost;
 
 
     }
