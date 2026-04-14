@@ -9,12 +9,10 @@ public class ProductBasket {
     private Product[] getProducts() {
         return products;
     }
-
     public ProductBasket() {
         this.products = new Product[5];
         this.productCount = 0;
     }
-
     //добавление товара в корзину
     public void addProduct(Product product) {
         if (productCount < products.length) {
