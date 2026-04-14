@@ -5,8 +5,8 @@ import org.skypro.skyshop.product.Product;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("ИНТЕРНЕТ-МАГАЗИН");
-        System.out.println("================");
+        System.out.println("===ИНТЕРНЕТ-МАГАЗИН===");
+        System.out.println("======================");
 
         Product apple = new Product("Яблоки", 110);
         Product banana = new Product("Бананы", 150);
